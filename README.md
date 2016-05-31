@@ -2,6 +2,10 @@
 
 Guía de desarrollo de wordpress.
 
+## Entorno de desarrollo local
+
+Mediante Vagrant vamos a levantar un servidor local donde poder desarrollar localmente nuestros sitios web.
+
 ### Requisitos
 
   - VirtualBox
@@ -91,3 +95,11 @@ Y nos dara opciones para crear, borrar y listar instancias de wordpress en ese s
 
 Una vez creamos una instancia nueva de Wordpress (tardará un rato en bootear la máquina y hacer todos los cambios) podremos empezar a desarrollar aisladamente de los demás webs que tengamos en la máquina.
 
+## GIT
+
+```sh
+RedirectMatch 404 /\.git
+```
+
+
+-- Roger Cendrós
